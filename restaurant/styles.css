@@ -1,0 +1,96 @@
+
+
+body{
+    background-image: url("./images/restaurant-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-fluid{
+    width: 100%;
+    padding:0 10%;
+}
+.top-line{
+    margin: 2%;
+}
+.logo{
+    float: left;
+    font-size: 2rem;
+    color: #026e78;
+}
+.contact{
+    float: right;
+    font-size: 1.5rem;
+    color: white;
+}
+.clear{
+    clear:both;
+}
+ul{
+    background-color: #026e78;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+li{
+    float:left;
+}
+
+.content{
+    margin: 15%;
+}
+.try{
+    background-color: #026e78;
+    color: white;
+    width: 350px;
+    padding: 1% 0;
+    text-align: justify;
+}
+a{
+    margin-top: 1%;
+    display: block;
+    border: none;
+    padding: 1%;
+    overflow: hidden;
+    width: 150px;
+}
+.book{
+    background-color: white;
+    color: #026e78;
+    padding: .5em;
+}
+.book:hover{
+    background-color: #03565e;
+    color: #fdff00;
+}
+.menu{
+    background-color: #026e78;
+    color: white;
+    padding: 1em;
+}
+li a {
+    display: block;
+    color: #fff;
+    background-color: #026e78;
+    padding: 1.1rem;
+    text-decoration: none;
+}
+a:hover{
+    color: #026e78;
+    background-color: white;
+    text-decoration: none;
+}
+li:last-child{
+    padding-right: 5.3rem;
+    background-color: #03565e;
+}
+li:last-child a{
+    background-color: #03565e;
+}
+li:last-child a:hover{
+    background-color: #023d42;
+    color: #fdff00;
+    text-decoration: none;
+}

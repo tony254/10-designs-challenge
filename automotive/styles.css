@@ -1,0 +1,78 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet"');
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background: url("./images/car-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container-fluid{
+    height: 100vh;
+    margin: 0;
+    padding: 0; 
+}
+
+.logo{
+    float: left;
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+.nav{
+    float: right;
+
+}
+.clear{
+    clear: both;
+}
+ul{
+    padding: 1rem;
+    margin: 0 2rem;
+}
+li{
+    display: inline;
+    list-style-type: none;
+    margin:0 1rem;
+    padding: .8rem;
+}
+li:last-child{
+    background-color: #00c2ff;
+    color: white;
+    text-decoration: none;
+}
+
+.content{
+    height: 2.5rem;
+    margin: 25vh;
+}
+section h1{
+    color: #00c2ff;
+    font-size: 450%;
+}
+section p{
+    color: white;
+    font-size: 2rem;
+}
+section button{
+    padding: 1rem;
+    background-color: #00c2ff;
+    color: white;
+    border: none;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    background-color: black;
+    text-align: center;
+}
+footer > div{
+    color: blanchedalmond;
+    display: inline-block;
+    margin: 0 2rem;  
+}
+h5{
+    color: #00c2ff;
+}
